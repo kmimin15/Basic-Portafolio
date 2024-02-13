@@ -1,0 +1,42 @@
+
+#cont > .flex-container {
+    background: linear-gradient(300deg, #EA906C, #B31312, #2B2A4C);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .flex-container > h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    white-space: nowrap;
+}
+.flex-container >  h2 {
+    white-space: nowrap;
+}
+.b-example-divider {
+    height: 4rem;
+}
+.carousel-caption {
+  background-color: #eee2de;
+  border-radius: 5px;
+}
+.carousel-caption > h1 {
+  color: black;
+  padding-left: 1.5rem;
+}
+.carousel-caption > p {
+  color: black;
+  padding-left: 1.5rem;
+}
